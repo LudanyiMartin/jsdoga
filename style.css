@@ -1,0 +1,87 @@
+body{
+    background-image: url('hatter.png');
+    text-align: justify;
+}
+.nagycucc{
+    background-color: pink;
+    margin: auto;
+    width: 1000px;
+    border: 3px dotted black;
+    padding: 10px;
+}
+hr{
+    border: 1px solid orange;
+}
+.nevek{
+    margin-left: 150px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.szurke1{
+    background-color: grey;
+    width: 475px;
+    padding: 10px;
+    
+}
+.szurke2{
+    background-color: grey;
+    width: 475px;
+    padding: 10px;
+    float: right;
+}
+.cicanevek{
+    background-color: lightpink;
+    margin-right: 150px;
+    border: outset darkgray;
+}
+.cicakepek{
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+    border: inset darkgray;
+}
+.galeria{
+    width: 1000px;
+    margin: auto;
+    background-color: lightpink;
+    border: 3px dotted black;
+    padding: 10px;
+    margin-top: 20px;
+}
+.cicakepek2{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+.cicakepek1{
+    width: 150px;
+    height: 150px;
+    margin-left: 155px;
+}
+.container{
+    display: none;
+    position: relative;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.galeria:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
